@@ -40,5 +40,6 @@ Traveller.prototype.getUniqueModesOfTransport = function () {
     return modeOfTransport.indexOf(transport) === index;
 });
 }
+//indexOf is returning the object where the index of the first occurence of the current transport matches the index of the current mode of transport the loop has landed on.
 
 module.exports = Traveller;
